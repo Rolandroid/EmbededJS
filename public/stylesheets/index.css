@@ -1,0 +1,110 @@
+.esteHeader{background-color: darkgrey;}
+
+.esteHeader div {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.esteHeader div i{
+    font-size: 5rem;
+}
+.esteHeader div h1{
+    font-size: 2rem;
+    font-family: 'Font Awesome 6 Pro';
+}
+.esteHeader div form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3px;
+}
+.esteHeader div span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.esteHeader div span div{
+    display: flex;
+    flex-direction: row;
+}
+.esteHeader div span div i{
+    font-size: 2rem;
+}
+.esteHeader div span div a{
+    text-align: center;
+    width: 70px;
+    font-size: 1rem;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.esteHeader form input{
+    font-size: 2rem;
+    padding: 6px 6px 0px 6px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 240px;
+}
+.esteHeader form select{
+    border: none;
+    font-size: 2rem;
+    color: grey;
+    background-color: whitesmoke;
+    width: 144px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.esteHeader form select option{
+    color: gray;
+}
+
+.esteHeader div form button{
+    height: 37px;
+    width: 37px;
+    font-size: 2rem;
+    padding: 3px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.esteHeader div form button i{
+    color: grey;
+    margin: 0;
+    height: 33px;
+    font-size: 2rem;
+}
+.esteHeader div div{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.esteHeader nav{
+    display: flex;
+    background-color: darkmagenta;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    border-radius: 19px;
+}
+.esteHeader nav ul{
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.esteHeader nav ul li{
+    font-size: 1.5rem;
+}
+.esteHeader nav ul li a{
+    padding: 1px 5px;
+    border: 2px solid darkgray;
+    color: darkgrey;
+    border-radius: 14px;
+}
+
+
