@@ -30,6 +30,7 @@
 }
 .esteHeader div span div i{
     font-size: 2rem;
+    /* text-shadow: -2px 2px black; */
 }
 .esteHeader div span div a{
     text-align: center;
